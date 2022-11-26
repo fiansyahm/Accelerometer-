@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textX"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:text="Nilai X" />
+
+    <TextView
+        android:id="@+id/textY"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_below="@id/textX"
+        android:text="Nilai Y" />
+
+    <TextView
+        android:id="@+id/textZ"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_below="@id/textY"
+        android:text="Nilai Z" />
+
+    <TextView
+        android:id="@+id/Speed"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_below="@id/textZ"
+        android:text="Speed" />
+</RelativeLayout>
+
